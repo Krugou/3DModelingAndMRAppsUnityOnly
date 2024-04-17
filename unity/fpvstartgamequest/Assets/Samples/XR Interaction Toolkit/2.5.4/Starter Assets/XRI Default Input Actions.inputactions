@@ -2600,6 +2600,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "SomeActions",
+            "id": "a72153e5-af4a-422e-9de6-6279bacfd21a",
+            "actions": [
+                {
+                    "name": "Toggle",
+                    "type": "Button",
+                    "id": "794fa21c-a148-49a2-98d2-be470426e177",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0af7ba5f-a117-400f-9167-78b8f5e889ad",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
